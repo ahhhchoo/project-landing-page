@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+    margin: 0;
+}
+
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    8. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+.header {
+    font-family: helvetica;
+    padding: 10px 70px;
+    background-color: #1f2937;
+    color: #f9faf8
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 70px;
+    font-family: helvetica;
+    color: #f9faf8
+}
+
+.hero-text {
+    font-size: 48px;
+    font-family: helvetica;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #c2c2c2;
+}
+
+
+
+.random-info-section {
+    background-color: white;
+    padding: 70px;
+    font-family: helvetica;
+
+}
+
+.randomtext {
+    font-family: helvetica;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box {
+    border-color: #3882f6;
+    border-width: 1em;
+    border: solid;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 70px;
+}
+
+
+.inspo {
+    font-family: Helvetica;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.quote {
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1F2937
+}
+
+.CTA-section {
+    background-color: white;
+    padding: 70px;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 70px;
+    font-family: helvetica;
+    color: #f9faf8
+}
